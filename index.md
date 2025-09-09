@@ -1,5 +1,7 @@
 
 ---
+title: Build MoodTracker App 
+layout: default
 ---
 # Build MoodTracker App
 
