@@ -67,6 +67,8 @@ c) Establishing workflows that separate research code from production-ready soft
 <p>
 The engineering mindset focuses on creating maintainable, scalable, and production-ready code rather than just making things work. It emphasizes proper workflows, testing, documentation, and code organization. 
 </details>
+<!-- end of answers section -->
+
 
 **For now we skip Python Installation and explanation how to work with VSCode** -- these will be added later
 
