@@ -41,13 +41,13 @@ C:\ (Your main hard drive - like the whole filing cabinet)
 - `└──` means "last item in this folder"
 - Indentation shows what's inside what - further right means deeper inside
 
-**This is your entire digital filing cabinet.** When you save a file, you're putting it in one of these *directories*. 
+**On the diagrams above is  your entire digital filing cabinet.** When you save a file, you're putting it in one of these *directories*. 
 
 ## How to organize your projects
 
 A lot of us have a habit of leaving files where they first landed when we downloaded them from the internet, which is often either `Downloads` or `Desktop` folder. (My Downloads folder, for example, has almost 500 files, some of which are more than 7 years old 🫠)
 
-So, it might feel tempting to just keep all you files in a ways shown below. 
+So, it might feel tempting to do the same with your python projects and just keep all you files in a ways shown below. 
 ```
 Download/
 ├── Untitled-0.ipynb

@@ -59,5 +59,18 @@ b) Using only the most cutting-edge programming languages
 c) Establishing workflows that separate research code from production-ready software  
 d) Working only on large-scale distributed systems
 
+---
+**For now we skip Python Installation and explanation how to work with VSCode** -- these will be added later
 
-<details> <summary><b>Answers</b></summary> <b>Correct answer:</b> <p> c) Establishing workflows that separate research code from production-ready software </p> <p> The engineering mindset focuses on creating maintainable, scalable, and production-ready code rather than just making things work. It emphasizes proper workflows, testing, documentation, and code organization. </p> </details> <p><strong>For now we skip Python Installation and explanation how to work with VSCode</strong> -- these will be added later</p> <p><a href="https://eliza-guseva.github.io/prod-ai-eng-python-moodtracker/1_leaving_coalb/6_project_organization.md">Next Lesson</a></p>
+[Next Lesson](1_leaving_coalb/6_project_organization.md)
+
+
+<details>
+<summary><b>Answers to this lesson Practice</b></summary>
+<b>Correct answer:</b>
+<p>
+c) Establishing workflows that separate research code from production-ready software
+<p>
+The engineering mindset focuses on creating maintainable, scalable, and production-ready code rather than just making things work. It emphasizes proper workflows, testing, documentation, and code organization. 
+</details>
+<!-- end of answers section -->
