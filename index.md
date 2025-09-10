@@ -1,4 +1,3 @@
-
 ---
 title: Build MoodTracker App 
 layout: default
