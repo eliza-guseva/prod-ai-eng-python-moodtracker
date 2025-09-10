@@ -69,24 +69,24 @@ python --version       # Check Python version
 Open your terminal (On Windows: GitBash -- we will always be working with GitBash)
 **Which directory are you in?** Use the reference with the command.
 
-a) `/c/Program Files/` or `/Applications/` 
-b) `/c/Users/YourName/` or `/Users/yourname/` 
-c) `/c/Windows/` or `/System/`
+- a) `/c/Program Files/` or `/Applications/` 
+- b) `/c/Users/YourName/` or `/Users/yourname/` 
+- c) `/c/Windows/` or `/System/`
 
 ## Question 2
 Now run the command to list files in your current directory. **What do you see?**
 
-a) A long list with file permissions, dates, and sizes 
-b) Just the names of files and folders like Desktop, Documents, Downloads 
-c) Nothing - the directory is completely empty
+- a) A long list with file permissions, dates, and sizes 
+- b) Just the names of files and folders like Desktop, Documents, Downloads 
+- c) Nothing - the directory is completely empty
 
 ## Question 3
 
 Now try the command that lists files WITH detailed information (hint: check the reference for the option that shows details). **What's different from your previous result?**
 
-a) You see the same simple list as before 
-b) You see many more files that were hidden before, plus detailed information like dates and file sizes 
-c) You only see Python files now
+- a) The same simple list as before 
+- b) Many more files that were hidden before, plus detailed information like dates and file sizes 
+- c) Only Python files!
 
 
 ---
