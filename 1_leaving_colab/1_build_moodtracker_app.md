@@ -59,3 +59,8 @@ a) Writing more complex code with advanced algorithms
 b) Using only the most cutting-edge programming languages  
 c) Establishing workflows that separate research code from production-ready software  
 d) Working only on large-scale distributed systems
+
+<details>
+<summary>Answers</summary>
+**Correct answer: c) Establishing workflows that separate research code from production-ready software** The engineering mindset focuses on creating maintainable, scalable, and production-ready code rather than just making things work. It emphasizes proper workflows, testing, documentation, and code organization. 
+</details>
