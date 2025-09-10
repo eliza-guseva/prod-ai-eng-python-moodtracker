@@ -51,5 +51,9 @@ b) A spreadsheet with rows and columns of data
 c) An image 
 d) Documentation text
 
+---
+[Next Lesson](7_basic_terminal.md)
+
+---
 
 <details> <summary><b>Answers to this lesson Practice</b></summary> <b>Question 1 - Correct answer:</b> <p> b) You won't know what program to use to open it </p> <p> File extensions tell the operating system and users what type of file it is and which program should be used to open it. Without an extension, you have to guess the file type or try different programs until you find one that works. </p> <b>Question 2 - Correct answer:</b> <p> b) A spreadsheet with rows and columns of data </p> <p> The .csv extension stands for "Comma-Separated Values" - it's a plain text format used to store tabular data where each line represents a row and columns are separated by commas. CSV files are commonly used for data exchange between different programs. </p> </details> <!-- end of answers section -->
