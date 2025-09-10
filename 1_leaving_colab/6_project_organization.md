@@ -1,3 +1,7 @@
+---
+title: Project Organization
+---
+
 # Section 1. Leaving familiar places
 ## Lesson 1.6 Project Organization
 

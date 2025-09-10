@@ -1,5 +1,8 @@
+---
+title: MoodTracker
+---
 
-# Section 1. Leaving familiar places. Build your first command-line application
+# Section 1. Leaving familiar places. Build command-line mood tracker
 ## Lesson 1.1 MoodTracker
 
 Welcome to your journey from Jupyter notebooks to professional software development! If you've been living in the comfortable world of `.ipynb` files and Google Colab, this chapter will feel different - and that's exactly the point.
