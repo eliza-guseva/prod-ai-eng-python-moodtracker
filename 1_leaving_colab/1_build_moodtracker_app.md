@@ -62,7 +62,7 @@ d) Working only on large-scale distributed systems
 ---
 **For now we skip Python Installation and explanation how to work with VSCode** -- these will be added later
 
-[Next Lesson](1_leaving_colab/6_project_organization)
+[Next Lesson](6_project_organization)
 
 
 <details>
