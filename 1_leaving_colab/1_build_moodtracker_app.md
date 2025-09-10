@@ -71,6 +71,9 @@ The engineering mindset focuses on creating maintainable, scalable, and producti
 
 <p></p>
 <div></div>
+&nbsp;
+
+---
 
 **For now we skip Python Installation and explanation how to work with VSCode** -- these will be added later
 
