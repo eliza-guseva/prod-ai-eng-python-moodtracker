@@ -62,6 +62,7 @@ Download/
 ```
 
 However, it is not very a productive development environment.
+
 **Try answering these questions with this setup:**
 - Which notebook has your latest working code?
 - Where's the data file that goes with `important_analysis_v2.ipynb`?
@@ -163,3 +164,26 @@ python mood_logger.py help       # Show all commands
 - b) VS Code would become extremely slow while trying to index millions of system files
 - c) It would delete system files
 - d) It would only index Python files
+
+---
+>**Note**
+>In the end of some lessons you'll have a choice of which lesson to go next
+
+[Rest Stop -- About file extensions](1_leaving_colab/6a_file_extensions.md)
+[Next Lesson](1_leaving_coalb/7_basic_terminal.md)
+
+<details>
+<summary><b>Answers to this lesson Practice</b></summary>
+<b>1. Correct answer:</b>
+<b>c)</b> 
+<p>
+If you are working on a project that is going to grow, it would be really nice to have
+        a separate folder for your data.
+<p>
+<b>2. Correct answer:</b>
+<b>b)</b> 
+<p>
+You will see VS Code going really slow as well, if you work in a company on a "monorepo" -- a big code base that contains work of tens or even hundreds engineers. Too much to index.
+</details>
+<!-- end of answers section -->
+

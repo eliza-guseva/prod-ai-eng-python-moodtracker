@@ -28,5 +28,16 @@ This course is split into logically-complete sections and each section is split 
 
 My strong believe is that in order to learn _anything_ in the domain of engineering you absolutely need to get your hands dirty and build some stuff. So in every course we build an app together. In every section we build a meanigful part of that app. And after (nearly) every class you’ll have an opportunity to practice your skills.
 
+>**Note**
+>I am thinking about this course as a journey. A road trip, or a multi-day hike. And none of the truly interesting journeys are truly linear. 
+>So, in the end of some lessons you'll have a choice of which lesson to go next. 
+>You can choose between:
+>- **Next lesson** -- next logical step in our journey
+>- **Rest stop** -- a topic which explains some of the concepts that we are working with, but might not be familiar to everyone.
+>- **Scenic route** -- a perhaps more advanced section, which I personally find interesting and useful, but isn't necessary for the whole progression
+>
+>Needless to say, after every detour, I'll take back to the main path.
+
+
 [First Lesson](1_leaving_colab/1_build_moodtracker_app)
 
