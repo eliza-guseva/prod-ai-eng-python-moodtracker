@@ -93,7 +93,7 @@ mood-tracker/        (meanigful name)
 # Practice
 
 - [ ] **Step 1. Choose Your Development Location**
-	- [ ] Think in which folder you are likely to stay organized. Open that folder with your file browser (or however you wish) and create a folder `mood_tracker`. No spaces, just an underscore -- it'll be easier this way
+	- [ ] Think in which folder you are likely to stay organized. Open that folder with your file browser (or however you wish) and create a folder `mood_tracker`. No spaces, just an underscore -- it'll be easier this way.
 	- [ ] Now open VSCode, go to file menu and click `Open folder`
 
 ![open_folder.png | 300](open_folder.png) 
@@ -167,10 +167,10 @@ python mood_logger.py help       # Show all commands
 
 ---
 >**Note**
->In the end of some lessons you'll have a choice of which lesson to go next
+>In the end of this lesson you have 2 options you can choose from. No matter which you choose you'll find your way back to the main course
 
-[Rest Stop -- About file extensions](1_leaving_colab/6a_file_extensions.md)
-[Next Lesson](1_leaving_coalb/7_basic_terminal.md)
+[Rest Stop -- A little bit about file extensions](1_leaving_colab/6a_file_extensions.md)
+[Next Lesson](1_leaving_colab/7_basic_terminal.md)
 
 <details>
 <summary><b>Answers to this lesson Practice</b></summary>
