@@ -1,8 +1,6 @@
 ---
-title: Project Organization
+title: 1.6 Project Organization
 ---
-
-# Section 1. Leaving familiar places
 ## Lesson 1.6 Project Organization
 
 **Your computer is a giant filing cabinet,** of sorts. But instead of drawers we have folders (often called *directories* in the engineering lingo).
