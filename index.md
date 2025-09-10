@@ -1,7 +1,7 @@
 ---
-title: Build MoodTracker App 
-layout: default
+title: Build MoodTracker App
 ---
+
 # Build MoodTracker App
 
 #future_video
