@@ -2,35 +2,37 @@
 title: 1.7 Basic Terminal
 ---
 
-What we would like to build is a CLI tool.
+What we would like to build in this course is called a **CLI tool.**
 CLI stands for **Command Line Interface**, which is sort of opposite of what you got used -- GUI, which stands for Graphical User Interface.
 
-The reason we're even bothering with this is because so many professional development tool you'll encounter - from Docker to Git to cloud deployment - run primarily through the command line. And the reason for it is **AUTOMATION** 🎀👏🏻📣🎉🤸🏼‍♀️🎊 (As engineers we just **love** *AUTOMATION* 🎀👏🏻📣🎉🤸🏼‍♀️🎊)
+The reason we're even bothering with this, is because so many professional development tools you'll encounter run primarily through the command line.  And not through a nice pretty window with animated buttons. There reason for it isn't that engineers don't like [beauty](https://charm.land/).
 
-And it's *very hard* to automate clicking buttons, but you can easily automate terminal commands. So, a lot of engineering, including AI/ML ones go to terminal when they need to process thousands of files or run the same workflow repeatedly.
+The reason is **AUTOMATION** 🎀👏🏻📣🎉🤸🏼‍♀️🎊 (As engineers we just **love** *AUTOMATION* 🎀👏🏻📣🎉🤸🏼‍♀️🎊)
 
-There are engineers who largely manage to avoid it, but we're trying to go a different path here - not the path of avoiding difficulty but the path of learning engineering and understanding how to use tools efficiently. 
+And it's *very hard* to automate clicking buttons, but you can easily automate terminal commands. So, a lot of engineers, including AI/ML ones, go to terminal when they need to process thousands of files or run the same workflow repeatedly.
 
-And the terminal is one of those tools that feels awkward in the beginning but in fact is really powerful.
+There are engineers who largely manage to avoid it, but we're trying to go a different path here - not the path of avoiding difficulty but the path of learning important skills and understanding how to use tools efficiently. 
 
-**So, let's do it**
+And the terminal is one of those tools that feel awkward in the beginning but in fact are really powerful.
 
+**So, shall we do it?**
+
+Well, let's begin with running it.
 ## System-Specific Terminal Access
 
 ### Windows: Git Bash (Your New Best Friend)
-
+*probably need installation instructions* `TODO`
 **Launch Git Bash** (not Command Prompt):
 - **From Start Menu**: Search "Git Bash"
 - **From File Explorer**: Right-click in any folder → "Git Bash Here"
 
 ### macOS: Terminal
-
 **Launch Terminal**:
 - **Spotlight**: Cmd+Space → type "Terminal"
 - **Applications**: Applications → Utilities → Terminal
 
 ### Linux: Terminal
-
+(You know what you are doing ;) )
 **Launch Terminal**:
 - **Keyboard**: Usually Ctrl+Alt+T
 - **Applications**: Search for "Terminal"
@@ -85,3 +87,42 @@ Now try the command that lists files WITH detailed information (hint: check the 
 a) You see the same simple list as before 
 b) You see many more files that were hidden before, plus detailed information like dates and file sizes 
 c) You only see Python files now
+
+
+---
+[Next Lesson](8_helper_function)
+
+---
+
+
+
+<details>
+<summary><b>Answers to this lesson Practice</b></summary>
+
+<b>Question 1 - Correct answer:</b>
+<p>
+b) /c/Users/YourName/ or /Users/yourname/
+</p>
+<p>
+When you open a terminal, by default it opens you home directory. You can confirm this with the `pwd` command (print working directory). *Those of you who configured an alternative start directory* -- good for you!
+</p>
+
+<b>Question 2 - Correct answer:</b>
+<p>
+b) Just the names of files and folders like Desktop, Documents, Downloads
+</p>
+<p>
+The basic `ls` command shows a simple list of visible files and folders in your current directory. In your home directory, you'll typically see common folders like Desktop, Documents, Downloads, Pictures, etc.
+</p>
+
+<b>Question 3 - Correct answer:</b>
+<p>
+b) You see many more files that were hidden before, plus detailed information like dates and file sizes
+</p>
+<p>
+The `ls -la` command (long format with all files) shows hidden files (those starting with a dot), plus detailed information including file permissions, ownership, file size, and modification dates. This reveals much more than the basic `ls` command.
+</p>
+
+</details>
+<!-- end of answers section -->
+

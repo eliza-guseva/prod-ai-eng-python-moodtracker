@@ -1,7 +1,6 @@
 ---
 title: "1.6a Rest Stop: File Extensions"
 ---
-## Lesson 1.6a File Extensions
 
 **Notice how when we created files, we always had them end  with a dot and letters?** Those are called **file extensions** - they tell your computer (and you) what type of file it is.
 
