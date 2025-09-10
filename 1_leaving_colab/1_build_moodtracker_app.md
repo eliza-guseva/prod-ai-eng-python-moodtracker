@@ -1,7 +1,6 @@
 
-## Section 1. Leaving familiar places: build your first command-line application
-
-### Lesson 1.1 MoodTracker
+# Section 1. Leaving familiar places. Build your first command-line application
+## Lesson 1.1 MoodTracker
 
 Welcome to your journey from Jupyter notebooks to professional software development! If you've been living in the comfortable world of `.ipynb` files and Google Colab, this chapter will feel different - and that's exactly the point.
 
@@ -61,6 +60,14 @@ c) Establishing workflows that separate research code from production-ready soft
 d) Working only on large-scale distributed systems
 
 <details>
-<summary>Answers</summary>
-**Correct answer: c) Establishing workflows that separate research code from production-ready software** The engineering mindset focuses on creating maintainable, scalable, and production-ready code rather than just making things work. It emphasizes proper workflows, testing, documentation, and code organization. 
+<summary><b>Answers</b></summary>
+<b>Correct answer: 
+<p>
+c) Establishing workflows that separate research code from production-ready software</b>
+<p>
+The engineering mindset focuses on creating maintainable, scalable, and production-ready code rather than just making things work. It emphasizes proper workflows, testing, documentation, and code organization. 
 </details>
+
+**For now we skip Python Installation and explanation how to work with VSCode** -- these will be added later
+
+[Next Lesson](1_leaving_coalb/6_project_organization.md)
