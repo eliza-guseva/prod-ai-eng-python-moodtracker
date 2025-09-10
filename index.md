@@ -1,5 +1,5 @@
 ---
-title: Build MoodTracker App
+title: Introduction
 ---
 
 # Build MoodTracker App
@@ -28,4 +28,5 @@ This course is split into logically-complete sections and each section is split 
 
 My strong believe is that in order to learn _anything_ in the domain of engineering you absolutely need to get your hands dirty and build some stuff. So in every course we build an app together. In every section we build a meanigful part of that app. And after (nearly) every class you’ll have an opportunity to practice your skills.
 
-[First Lesson](1. Build MoodTracker App.md)
+[First Lesson](1_leaving_colab/1_build_moodtracker_app)
+

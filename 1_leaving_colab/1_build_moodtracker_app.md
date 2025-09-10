@@ -1,8 +1,5 @@
 
-
----
-
-## Section 1. Build your first command-line application
+## Section 1. Leaving familiar places: build your first command-line application
 
 ### Lesson 1.1 MoodTracker
 
@@ -30,7 +27,6 @@ And! We're not just building a simple script. We're establishing the **engineeri
 By the end of this chapter, you'll have a complete development environment and a working command-line application that you can actually use daily.
 
 ---
-
 ## The Notebook vs. Engineering Mindset
 
 ### What You Know: Data Science Workflow
@@ -55,7 +51,6 @@ python mood_logger.py stats
 **The key difference isn't complexity** - it's **reliability and reusability**. Your notebook experiments become applications that work consistently for anyone, anywhere.
 
 ---
-
 # Practice
 
 **What does "engineering mindset" mean in the context of this course?**
