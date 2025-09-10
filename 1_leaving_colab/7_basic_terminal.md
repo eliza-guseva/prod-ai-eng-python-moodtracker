@@ -9,9 +9,9 @@ The reason we're even bothering with this, is because so many professional devel
 
 The reason is **AUTOMATION** 🎀👏🏻📣🎉🤸🏼‍♀️🎊 (As engineers we just **love** *AUTOMATION* 🎀👏🏻📣🎉🤸🏼‍♀️🎊)
 
-And it's *very hard* to automate clicking buttons, but you can easily automate terminal commands. So, a lot of engineers, including AI/ML ones, go to terminal when they need to process thousands of files or run the same workflow repeatedly.
+And it's *very hard* to automate clicking buttons. But you can easily automate terminal commands. So, a lot of engineers, including AI/ML ones, go to terminal when they need to process thousands of files or run the same workflow repeatedly.
 
-There are engineers who largely manage to avoid it, but we're trying to go a different path here - not the path of avoiding difficulty but the path of learning important skills and understanding how to use tools efficiently. 
+There are engineers who largely manage to avoid it, but we're trying to go a different path here - not the path of avoiding unfamiliar but the path of learning important skills and understanding how to use tools efficiently. 
 
 And the terminal is one of those tools that feel awkward in the beginning but in fact are really powerful.
 
