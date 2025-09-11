@@ -39,7 +39,7 @@ Well, let's begin with running it.
 
 # Practice
 
-- [ ] Let's first make sure that we aren't going to forget the most important terminal commands.
+<input type="checkbox"> Let's first make sure that we aren't going to forget the most important terminal commands. </input>
 	- [ ] In your project create `CMD.md` and copy the code snippet below into it.
 	- [ ] Don't forget the 3 backquotes symbols in the beginning and in the end of the snippet -- that is how `.md` files signify code block
 
