@@ -1,11 +1,11 @@
 ---
 title: 1.8 Helper Function
 ---
-Okay, we ventured into terminal. That was good. Now let's get back to the familiar ground and let's write some Python!
+Okay, we ventured into terminal for some time. That was good! Now let's get back to the familiar ground and let's write some Python!
 
 ## The Application Architecture
 
-**In notebooks**, your code runs cell by cell, with shared state in memory. Each cell can access variables from previous cells, and you often restart the kernel when things get messy. 
+**In notebooks**, your code runs cell by cell, with **shared state** in memory. Meaning that each cell can access variables from other cells, and you often restart the kernel when things get messy. 
 
 **In applications**, your code must be self-contained and start fresh every time it runs. There's no "previous cell" to rely on - everything the program needs must be explicitly provided. This fundamental difference shapes how we organize our code.
 
@@ -21,44 +21,29 @@ if mood == "happy":
     print("Great day!")
 ```
 
-But if we write an application for the users (even if it is just ourselves), we cannot expect them to go and edit the code. So instead, we will accept ??
+But if we write an application for the users (even if it is just ourselves), we cannot expect them to go and edit the code. So instead, we use **command line arguments** to get input from users. 
 
-
----
-# TODO
-
-Our MoodTracker will demonstrate professional patterns:
-
-- **Command-line argument processing** - like `pandas.read_csv(filename)`
-- **Function organization** - modular, testable code
-- **Error handling** - graceful failures instead of crashed notebooks
-- **Data persistence** - files, not just variables in memory
-
-## Professional Command-Line Design
-
-**Good CLI applications follow conventions**:
-
+For our app it will look something like this:
 ```bash
-# Standard pattern: program action arguments
 python mood_logger.py log happy 3
-python mood_logger.py stats
-python mood_logger.py help
-
-# Help is always available  
-python mood_logger.py --help
-python mood_logger.py help
 ```
+You notice it's similar to the way how other commands operate (check your `CMD.md`): `cd folder` or `pip install package`. First we pass the command name (in our case it's a bit extended `python mood_logger.py`) and then we pass arguments like `log happy 3` or `showstats.`
 
-This matches tools you already use: `pip install package`, `git add file`, `python -m module`.
+Now, since we don't expect our users to go and check our code, we also need to tell them how to use our app. We need to tell them which arguments are possible -- or we need to show them `usage.`
 
-## Building the Foundation
+That is why most of the CLI tools will also accept `help` or `--help` or `-h` arguments. Or often if  user didn't provide any arguments or provided wrong ones, they will show help as well. Just to be friendly. 
 
-Open `mood_logger.py` in VS Code and let's build it step by step:
+Try it: type in your terminal `pip -h` or `git help` -- you'll see that these tools will dump on your all the many arguments that you can give them.
 
-### Step 1: The Help System (Professional Documentation)
+So, let's begin with being friendly and create a help function that makes our MoodTracker as nice as the tools you use every day!
+
+# Practice
+
+- [ ] Open `app.py` in VS Code. *Remember, don't just open a file with a double click -- first Open Folder with VS Code and then find `app.py` in the left side bar and double click it within the VS Code*
+- [ ] Your `app.py` is nice and empty. Copy the following function in there and save the file. This functions has nothing but a lot of print statements. Read through it -- it will show you which functionality we plan to add to our app.
 
 ```python
-def show_help():
+def show_help() -> None:
     """Display usage information for MoodTracker.
     
     This function provides comprehensive help text following
@@ -69,8 +54,8 @@ def show_help():
     print()
     print("USAGE:")
     print("  python mood_logger.py <mood> <intensity>  - Log a mood")
-    print("  python mood_logger.py stats              - Show statistics")
-    print("  python mood_logger.py help               - Show this help")
+    print("  python mood_logger.py showstats           - Show statistics")
+    print("  python mood_logger.py help                - Show this help")
     print()
     print("MOODS:")
     print("  happy, sad, angry, fearful, disgusted")
@@ -90,12 +75,21 @@ def show_help():
     print("  Moods are saved to: data/mood_log.txt")
     print("  Data persists between program runs (unlike notebook variables)")
 
+```
 
+- [ ] Let's test it!
+	- [ ] In your terminal, the first thing we have to do is to navigate to your project? Do you remember where it is? type `cd path/to/your/folder`. *For example,* if you are in your home folder and your project is in the `Desktop/mood_tracker` type `cd Desktop/mood_tracker`
+	- [ ] **Issues?** If you have your terminal open and you don't know where you are, type `pwd`. If you want to go back to your home folder type `cd` (no arguments). 
+
+--- 
+# TODO
+
+
+```python
 # Application entry point - this is what runs when you execute the script
 if __name__ == "__main__":
     show_help()
 ```
-
 ### Step 2: Test Your Application
 
 **Save the file** and run it from your terminal:

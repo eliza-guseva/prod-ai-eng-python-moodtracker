@@ -94,7 +94,8 @@ mood-tracker/        (meanigful name)
 # Practice
 
 <input type="checkbox"> **Step 1. Choose Your Development Location**
-<br>&nbsp;&nbsp;<input type="checkbox"> Think in which folder you are likely to stay organized. Open that folder with your file browser (or however you wish) and create a folder `mood_tracker`. No spaces, just an underscore -- it'll be easier this way.
+&nbsp;&nbsp; Think in which folder you are likely to stay organized. It would be good if you used any directory under your home folder. Either directly your home folder or `Desktop` or `Documents`  or `MyCode` -- up to you. Just make sure there are no spaces in your folder name. Spaces make things difficult.
+<br>&nbsp;&nbsp;<input type="checkbox"> Open that folder with your file browser (or however you wish) and create a folder `mood_tracker`. No spaces, just an underscore.
 <br>&nbsp;&nbsp;<input type="checkbox"> Now open VSCode, go to file menu and click `Open folder`
 
 ![open_folder.png | 300](open_folder.png) 
