@@ -93,9 +93,9 @@ mood-tracker/        (meanigful name)
 >These patterns emerged because enough people lost  their work and time hunting for files and searching where the heck they defined a function. When your project grows from 1 file to 100 files across months of work, the difference between organized and chaotic becomes the difference between productive development and constant frustration.
 # Practice
 
-- [ ] **Step 1. Choose Your Development Location**
-	- [ ] Think in which folder you are likely to stay organized. Open that folder with your file browser (or however you wish) and create a folder `mood_tracker`. No spaces, just an underscore -- it'll be easier this way.
-	- [ ] Now open VSCode, go to file menu and click `Open folder`
+<input type="checkbox"> **Step 1. Choose Your Development Location**
+<br>&nbsp;&nbsp;<input type="checkbox"> Think in which folder you are likely to stay organized. Open that folder with your file browser (or however you wish) and create a folder `mood_tracker`. No spaces, just an underscore -- it'll be easier this way.
+<br>&nbsp;&nbsp;<input type="checkbox"> Now open VSCode, go to file menu and click `Open folder`
 
 ![open_folder.png | 300](open_folder.png) 
 
@@ -110,19 +110,19 @@ For example, it indexes (scans and catalogs) all the files in that project. This
 
 You can also use `Open Recent` to open projects with which you worked recently.
 
-- [ ] **Step 2. Create Project Structure**
-	- [ ] Now we can create all the necessary project structure right inside the VS Code
-	- [ ] Use left tabs' `EXPLORER` New File and an New Folder buttons to create the following folders and files
+<input type="checkbox"> **Step 2. Create Project Structure**
+<br>&nbsp;&nbsp;<input type="checkbox"> Now we can create all the necessary project structure right inside the VS Code
+<br>&nbsp;&nbsp;<input type="checkbox"> Use left tabs' `EXPLORER` New File and an New Folder buttons to create the following folders and files
 ![vs code tree | 300](vscode_tree.png)
-- [ ] File: `README.md` -- here we'll explain our excited users (us) what our app is all about
-- [ ] Directory: `src` -- realistically speaking our app is too small to have it. But we'll use it to learn some important Python concepts
-- [ ] File: `app.py` -- here all fun will happen
-- [ ] Directory: `docs` -- these are very useful in bigger projects. We will keep ours empty
+<br>&nbsp;&nbsp;<input type="checkbox"> File: `README.md` -- here we'll explain our excited users (us) what our app is all about
+<br>&nbsp;&nbsp;<input type="checkbox"> Directory: `src` -- realistically speaking our app is too small to have it. But we'll use it to learn some important Python concepts
+<br>&nbsp;&nbsp;<input type="checkbox"> File: `app.py` -- here all fun will happen
+<br>&nbsp;&nbsp;<input type="checkbox"> Directory: `docs` -- these are very useful in bigger projects. We will keep ours empty
 
-- [ ] **Step 3: Document Your Project**
+<input type="checkbox"> **Step 3: Document Your Project**
 
 Every project should have some kind of README file, which other people (or us 6 months later) can reference to learn what the project is about. 
-- [ ] Let's add this to `README.md`:
+<input type="checkbox"> Let's add this to `README.md`:
 
 ````markdown
 # MoodTracker
