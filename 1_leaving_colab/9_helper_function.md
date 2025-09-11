@@ -39,8 +39,8 @@ So, let's begin with being friendly and create a help function that makes our Mo
 
 # Practice
 
-<input type="checkbox"> Open `app.py` in VS Code. *Remember, don't just open a file with a double click -- first Open Folder with VS Code and then find `app.py` in the left side bar and double click it within the VS Code*
-<input type="checkbox"> Your `app.py` is nice and empty. Copy the following function in there and save the file. This functions has nothing but a lot of print statements. Read through it -- it will show you which functionality we plan to add to our app.
+<br><input type="checkbox"> Open `app.py` in VS Code. *Remember, don't just open a file with a double click -- first Open Folder with VS Code and then find `app.py` in the left side bar and double click it within the VS Code*
+<br><input type="checkbox"> Your `app.py` is nice and empty. Copy the following function in there and save the file. This functions has nothing but a lot of print statements. Read through it -- it will show you which functionality we plan to add to our app.
 
 ```python
 def show_help() -> None:
@@ -77,9 +77,9 @@ def show_help() -> None:
 
 ```
 
-<input type="checkbox"> Let's test it!
-	<input type="checkbox"> In your terminal, the first thing we have to do is to navigate to your project? Do you remember where it is? type `cd path/to/your/folder`. *For example,* if you are in your home folder and your project is in the `Desktop/mood_tracker` type `cd Desktop/mood_tracker`
-	<input type="checkbox"> **Issues?** If you have your terminal open and you don't know where you are, type `pwd`. If you want to go back to your home folder type `cd` (no arguments). 
+<br><input type="checkbox"> Let's test it!
+	<br><input type="checkbox"> In your terminal, the first thing we have to do is to navigate to your project? Do you remember where it is? type `cd path/to/your/folder`. *For example,* if you are in your home folder and your project is in the `Desktop/mood_tracker` type `cd Desktop/mood_tracker`
+	<br><input type="checkbox"> **Issues?** If you have your terminal open and you don't know where you are, type `pwd`. If you want to go back to your home folder type `cd` (no arguments). 
 
 --- 
 # TODO
