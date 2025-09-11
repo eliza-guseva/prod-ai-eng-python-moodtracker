@@ -97,8 +97,7 @@ mood-tracker/        (meanigful name)
 &nbsp;&nbsp; Think in which folder you are likely to stay organized. It would be good if you used any directory under your home folder. Either directly your home folder or `Desktop` or `Documents`  or `MyCode` -- up to you. Just make sure there are no spaces in your folder name. Spaces make things difficult.
 <br>&nbsp;&nbsp;<input type="checkbox"> Open that folder with your file browser (or however you wish) and create a folder `mood_tracker`. No spaces, just an underscore.
 <br>&nbsp;&nbsp;<input type="checkbox"> Now open VSCode, go to file menu and click `Open folder`
-
-![open folder png | 300](open_folder.png) 
+![animage](open_folder.png) 
 
 It is generally a good idea to **_always_** use `Open Folder` instead of opening an individual file.
 
