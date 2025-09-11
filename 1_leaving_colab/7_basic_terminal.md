@@ -52,6 +52,8 @@ ls -la                 # List files with details
 cd folder_name         # Enter directory (Change Directory)
 cd ..                  # Go to the parent directory (current directory is just .)
 cd ~                   # Go to home folder (the tilde points to your Home Folder)
+cd                     # Also goes to home directory (shortcut)
+cd -                   # Go back to previous directory
 
 # File operations
 touch filename         # Create empty file
