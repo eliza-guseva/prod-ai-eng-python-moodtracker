@@ -71,14 +71,12 @@ Let's practice navigating to your mood-tracker project using both types of paths
 <br><input type="checkbox"> Run `pwd` to see where you are
 <br><input type="checkbox"> Write down this path - this is an absolute path to your current location
 ### Step 2: Navigate using absolute path
-
 <br><input type="checkbox"> Look at the absolute path from Step 1
 <br><input type="checkbox"> Navigate to the root directory: `cd /`
 <br><input type="checkbox"> Run `ls` to see what's at the root level (Lotsa stuff, right?)
 <br><input type="checkbox"> Now navigate back to wherever you were using the absolute path you wrote down in Step 1
 <br><input type="checkbox"> Run `pwd`. Are you where you were?
 ### Step 3: Find your mood-tracker project
-
 <br><input type="checkbox"> Go to you home directory (Use the appropriate command, check `CMD.md` if you forgot)
 <br><input type="checkbox"> From your home directory, check the available folders 
 <br><input type="checkbox"> Navigate to *where* you created your mood-tracker project using relative path (probably `Desktop`)
@@ -87,8 +85,9 @@ Let's practice navigating to your mood-tracker project using both types of paths
 
 ### What do you see?
 - a) `app.py		docs		README.md	src`
-- b) `mood_trackre`
+- b) `mood_tracker`
 - c) `Documents    Desktop` and so on
+- d) Strange, strange things
 
 ## Question 2
 
@@ -126,7 +125,8 @@ Let's practice navigating to your mood-tracker project using both types of paths
 <details> <summary><b>Answers to this lesson Practice</b></summary>
 <b>Question 1 - Correct answer:</b>
 
-<p> a) .Hopefully you didn't get lost. if you got lost, type `cd`, it will return you to you home folder. Try to find your `mood_tracker` again  </p>
+<p> a) `app.py		docs		README.md	src`
+<p> Hopefully you didn't get lost. if you got lost, type `cd`, it will return you to you home folder. Try to find your `mood_tracker` again  </p>
 
 <b>Question 2 - Correct answer:</b>
 
