@@ -67,23 +67,23 @@ Let's practice navigating to your mood-tracker project using both types of paths
 
 ## Question 1
 ### Step 1: Find your current location
-- [ ] Open your terminal (if you don't have it open)
-- [ ] Run `pwd` to see where you are
-- [ ] Write down this path - this is an absolute path to your current location
+<input type="checkbox"> Open your terminal (if you don't have it open)
+<input type="checkbox"> Run `pwd` to see where you are
+<input type="checkbox"> Write down this path - this is an absolute path to your current location
 ### Step 2: Navigate using absolute path
 
-- [ ] Look at the absolute path from Step 1
-- [ ] Navigate to the root directory: `cd /`
-- [ ] Run `ls` to see what's at the root level (Lotsa stuff, right?)
-- [ ] Now navigate back to wherever you were using the absolute path you wrote down in Step 1
-- [ ] Run `pwd`. Are you where you were?
+<input type="checkbox"> Look at the absolute path from Step 1
+<input type="checkbox"> Navigate to the root directory: `cd /`
+<input type="checkbox"> Run `ls` to see what's at the root level (Lotsa stuff, right?)
+<input type="checkbox"> Now navigate back to wherever you were using the absolute path you wrote down in Step 1
+<input type="checkbox"> Run `pwd`. Are you where you were?
 ### Step 3: Find your mood-tracker project
 
-- [ ] Go to you home directory (Use the appropriate command, check `CMD.md` if you forgot)
-- [ ] From your home directory, check the available folders 
-- [ ] Navigate to *where* you created your mood-tracker project using relative path (probably `Desktop`)
-- [ ] Confirm you can see your `mood_tracker` folder (check the available folders)
-- [ ] Enter your `mood_tracker` and chock available files
+<input type="checkbox"> Go to you home directory (Use the appropriate command, check `CMD.md` if you forgot)
+<input type="checkbox"> From your home directory, check the available folders 
+<input type="checkbox"> Navigate to *where* you created your mood-tracker project using relative path (probably `Desktop`)
+<input type="checkbox"> Confirm you can see your `mood_tracker` folder (check the available folders)
+<input type="checkbox"> Enter your `mood_tracker` and chock available files
 
 ### What do you see?
 - a) `app.py		docs		README.md	src`
