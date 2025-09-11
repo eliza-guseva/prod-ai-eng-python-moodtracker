@@ -90,7 +90,7 @@ Now try the command that lists files WITH detailed information (hint: check the 
 
 
 ---
-[Next Lesson](8_helper_function)
+[Next Lesson](8_file_system_navigation)
 
 ---
 
