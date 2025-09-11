@@ -83,7 +83,7 @@ Let's practice navigating to your mood-tracker project using both types of paths
 <br><input type="checkbox"> From your home directory, check the available folders 
 <br><input type="checkbox"> Navigate to *where* you created your mood-tracker project using relative path (probably `Desktop`)
 <br><input type="checkbox"> Confirm you can see your `mood_tracker` folder (check the available folders)
-<br><input type="checkbox"> Enter your `mood_tracker` and chock available files
+<br><input type="checkbox"> Enter your `mood_tracker` and check available files
 
 ### What do you see?
 - a) `app.py		docs		README.md	src`
