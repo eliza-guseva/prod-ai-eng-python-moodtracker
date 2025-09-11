@@ -98,7 +98,7 @@ mood-tracker/        (meanigful name)
 <br>&nbsp;&nbsp;<input type="checkbox"> Open that folder with your file browser (or however you wish) and create a folder `mood_tracker`. No spaces, just an underscore.
 <br>&nbsp;&nbsp;<input type="checkbox"> Now open VSCode, go to file menu and click `Open folder`
 
-![open_folder.png | 300](open_folder.png) 
+![open folder png | 300](open_folder.png) 
 
 It is generally a good idea to **_always_** use `Open Folder` instead of opening an individual file.
 
