@@ -37,18 +37,18 @@ You get: `python: can't open file 'app.py': [Errno 2] No such file or directory`
 
 **Your friend sends you a file called `presentation` with no extension. What problem might this cause?**
 
-a) The file will be corrupted 
-b) You won't know what program to use to open it 
-c) It will take up more storage space 
-d) It can't be copied to other computers
+- a) The file will be corrupted 
+- b) You won't know what program to use to open it 
+- c) It will take up more storage space 
+- d) It can't be copied to other computers
 
 
 **You see a file called `data.csv` in your project. What type of content would you expect to find inside?**
 
-a) Python code 
-b) A spreadsheet with rows and columns of data 
-c) An image 
-d) Documentation text
+- a) Python code 
+- b) A spreadsheet with rows and columns of data 
+- c) An image 
+- d) Documentation text
 
 ---
 [Next Lesson](7_basic_terminal.md)

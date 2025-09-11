@@ -59,7 +59,7 @@ cd -                   # Go back to previous directory
 touch filename         # Create empty file
 mkdir folder_name      # Create directory (MaKe DIRertory)
 cp file1 file2         # Copy file (CoPy)
-cp -r folder1 folder2  # Copy folder Recursively
+cp -r folder1 folder2  # Copy folder Recursively (meaning all its content)
 mv old_name new_name   # Rename/move file (MoVe)
 
 # Python operations
@@ -68,8 +68,9 @@ python --version       # Check Python version
 ````
 
 ## Question 1
-Open your terminal (On Windows: GitBash -- we will always be working with GitBash)
-**Which directory are you in?** Use the reference with the command.
+Open your terminal 
+(On Windows: GitBash -- we will always be working with GitBash)
+**Which directory are you in?** Use the reference with the commands above.
 
 - a) `/c/Program Files/` or `/Applications/` 
 - b) `/c/Users/YourName/` or `/Users/yourname/` 

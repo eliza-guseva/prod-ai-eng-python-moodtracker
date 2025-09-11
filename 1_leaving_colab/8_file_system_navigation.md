@@ -30,7 +30,9 @@ This means: "Start at the C: drive (the whole cabinet), go to Users drawer, find
 
 ### Relative Paths
 
-**A relative path is like saying** something like "from where you're standing at the filing cabinet, go to the folder above, then to page 14 in that folder." Relative paths depend on our current location. When we provide relative paths we _assume_ we know where we are. If we assumed wrong, our navigation will result in an error.
+**A relative path is like saying** something like "from where you're standing at the filing cabinet, go to the folder above, then to page 14 in that folder." 
+
+Relative paths depend on our current location. When we provide relative paths we _assume_ we know where we are. If we assumed wrong, our navigation will result in an error.
 
 **Examples of relative paths:**
 ```bash
