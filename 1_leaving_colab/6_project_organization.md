@@ -172,6 +172,7 @@ python mood_logger.py help       # Show all commands
 >In the end of this lesson you have 2 options you can choose from. No matter which you choose you'll find your way back to the main course
 
 [Rest Stop -- A little bit about file extensions](6a_file_extensions.md)
+
 [Next Lesson](7_basic_terminal.md)
 
 <details>
