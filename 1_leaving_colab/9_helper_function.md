@@ -33,7 +33,7 @@ Now, since we don't expect our users to go and check our code, we also need to t
 
 That is why most of the CLI tools will also accept `help` or `--help` or `-h` arguments. Or often if  user didn't provide any arguments or provided wrong ones, they will show help as well. Just to be friendly. 
 
-Try it: type in your terminal `pip -h` or `git help` -- you'll see that these tools will dump on your all the many arguments that you can give them.
+**Try it:** type in your terminal `pip -h` or `git help` -- you'll see that these tools will dump on your all the many arguments that you can give them.
 
 So, let's begin with being friendly and create a help function that makes our MoodTracker as nice as the tools you use every day!
 
@@ -79,33 +79,22 @@ def show_help() -> None:
 
 <br><input type="checkbox"> Let's test it!
 	<br><input type="checkbox"> In your terminal, the first thing we have to do is to navigate to your project? Do you remember where it is? type `cd path/to/your/folder`. *For example,* if you are in your home folder and your project is in the `Desktop/mood_tracker` type `cd Desktop/mood_tracker`
-	<br><input type="checkbox"> **Issues?** If you have your terminal open and you don't know where you are, type `pwd`. If you want to go back to your home folder type `cd` (no arguments). 
-
---- 
-# TODO
+	- [ ] run `python app.py` (type it in and hit enter)
 
 
-```python
-# Application entry point - this is what runs when you execute the script
-if __name__ == "__main__":
-    show_help()
-```
-### Step 2: Test Your Application
+## Question
+**What do you see?**
+- a) Nothing
+- b) A lot of lines describing how to use 
 
-**Save the file** and run it from your terminal:
+### Issues?
+<input type="checkbox"> If you have your terminal open and you don't know where you are, type `pwd`. If you want to go back to your home folder type `cd` (no arguments). From your home folder you can always navigate to your project (consult with your `CMD.md` if you forgot commands.)
+- [ ] `command not found: python`? try python3
+- [ ] On Window? make sure you are in `git bash` terminal.
 
-```bash
-# Make sure you're in the mood-tracker directory
-pwd
+[Next: Run it!](10_run_it)
 
-# Run your application
-python mood_logger.py
-```
-
-**You should see comprehensive help output.** If not:
-
-- **Check you're in the right directory**: `pwd` should show mood-tracker
-- **Check Python works**: `python --version` should show 3.12+
-- **Check the filename**: Make sure you saved as `mood_logger.py`
-
-**Congratulations!** You just built your first standalone Python application with professional help documentation.
+<details> 
+<summary><b>Answer to this lesson Practice</b></summary>
+<b>Correct answer:</b> <p> a) Nothing </p> <p> When you run `python app.py`, you see nothing because the file only contains a function definition. In Python, defining a function doesn't automatically execute it - you need to explicitly call the function for it to run. The `show_help()` function exists in memory, but since there's no code that calls `show_help()`, nothing gets printed to the terminal.  </p>
+</details>

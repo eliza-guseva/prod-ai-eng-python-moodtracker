@@ -13,9 +13,9 @@ C:\ (Your main hard drive - like the whole filing cabinet)
 ├── Users/                  
 │   └── YourName/           (Your personal space)
 │       ├── Desktop/        (What you see on the screen behind all the windows
-							 and I hope NOT where you store half of your files)
+					and I hope NOT where you store half of your files)
 │       ├── Documents/      (Your main work folder. 
-							  That's where things are supposed to go technically)
+					That's where things are supposed to go technically)
 │       ├── Downloads/      (The second half of all your files is likely here)
 │       ├── Pictures/
 │       └── Videos/
@@ -28,9 +28,9 @@ C:\ (Your main hard drive - like the whole filing cabinet)
 ├── System/                (Operating system files ☠️)
 ├── Users/
 │   └── yourname/          (Your home folder -- place for your files. 
-							It also has a few hidden configuration files)
+					It also has a few hidden configuration files)
 │       ├── Desktop/       (What you see on the screen behind all the windows
-							 and I hope NOT where you store half of your files)
+					and I hope NOT where you store half of your files)
 │       ├── Documents/     (Your main work folder -- I never use it 🤷🏻‍♀️)
 │       ├── Downloads/     (The second half of all your files is likely here)
 │       ├── Pictures/
