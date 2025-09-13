@@ -95,7 +95,7 @@ def show_help() -> None:
 
 ---
 
-[Next: Run it!](10_run_it)
+[Next: Entrypoint](10_entrypoint.md)
 
 ---
 
