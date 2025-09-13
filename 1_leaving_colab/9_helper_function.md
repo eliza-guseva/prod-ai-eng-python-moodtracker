@@ -5,10 +5,11 @@ Okay, we ventured into terminal for some time. That was good! Now let's get back
 
 ## The Application Architecture
 
-**In notebooks**, your code runs cell by cell, with **shared state** in memory. Meaning that each cell can access variables from other cells, and you often restart the kernel when things get messy. 
+**In notebooks**, your code runs cell by cell, with **shared state** in memory. 
+
+**Shared state** means that each cell can access variables from other cells, and you often restart the kernel when things get messy. 
 
 **In applications**, your code must be self-contained and start fresh every time it runs. There's no "previous cell" to rely on - everything the program needs must be explicitly provided. This fundamental difference shapes how we organize our code.
-
 
 Look at the code below. 
 If you want to change the mood, you can go back to Cell 1 and change it. 
@@ -79,7 +80,7 @@ def show_help() -> None:
 
 <br><input type="checkbox"> Let's test it!
 	<br><input type="checkbox"> In your terminal, the first thing we have to do is to navigate to your project? Do you remember where it is? type `cd path/to/your/folder`. *For example,* if you are in your home folder and your project is in the `Desktop/mood_tracker` type `cd Desktop/mood_tracker`
-	- [ ] run `python app.py` (type it in and hit enter)
+<br>&nbsp;&nbsp;<input type="checkbox"> run `python app.py` (type it in and hit enter)
 
 
 ## Question
@@ -88,11 +89,15 @@ def show_help() -> None:
 - b) A lot of lines describing how to use 
 
 ### Issues?
-<input type="checkbox"> If you have your terminal open and you don't know where you are, type `pwd`. If you want to go back to your home folder type `cd` (no arguments). From your home folder you can always navigate to your project (consult with your `CMD.md` if you forgot commands.)
-- [ ] `command not found: python`? try python3
-- [ ] On Window? make sure you are in `git bash` terminal.
+<br><input type="checkbox"> If you have your terminal open and you don't know where you are, type `pwd`. If you want to go back to your home folder type `cd` (no arguments). From your home folder you can always navigate to your project (consult with your `CMD.md` if you forgot commands.)
+<br><input type="checkbox"> `command not found: python`? try python3
+<br><input type="checkbox"> On Window? make sure you are in `git bash` terminal.
+
+---
 
 [Next: Run it!](10_run_it)
+
+---
 
 <details> 
 <summary><b>Answer to this lesson Practice</b></summary>

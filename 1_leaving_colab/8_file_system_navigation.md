@@ -118,7 +118,7 @@ Let's practice navigating to your mood-tracker project using both types of paths
 
 ---
 
-[Next Lesson](9_helper_function.md)
+[Next: 1.9 Helper Function](9_helper_function.md)
 
 ---
 
