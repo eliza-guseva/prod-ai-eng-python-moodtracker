@@ -104,7 +104,7 @@ Feel free to peruse documents:
 ```python
 # Cell 1: Import what you need
 from datetime import datetime
-import os
+...
 
 # Cell 2: Write your function
 def log_mood(mood, intensity):
@@ -115,6 +115,9 @@ def log_mood(mood, intensity):
     # check if mood a correct one, if not tell them what they can enter
     # not that we should allow users to enter moods in any case, eg
     # "Happy", "happy" "HaPPy" etc
+    ...
+    
+    # check that intensity is between 1 and 3
     ...
 
     # Create data directory if it doesn't exist
@@ -138,7 +141,7 @@ log_mood("sad", 1)
 <br>&nbsp;&nbsp;<input type="checkbox"> Check that the `data/mood_log.csv` file is created correctly
 <br>&nbsp;&nbsp;<input type="checkbox"> Make sure your function handles the file creation properly
 
-### Step 2: Copy to Production
+### Step 2: Copy to the main app
 
 <input type="checkbox"> **Once it works perfectly in your notebook:**
 <br>&nbsp;&nbsp;<input type="checkbox"> Copy your function to `src/app_logic.py` (replace the placeholder)
@@ -154,19 +157,19 @@ if __name__ == "__main__":
 
 **After implementing and testing your `log_mood` function in the notebook, what's the most important thing to verify before copying it to `src/app_logic.py`?**
 
-a) The function name matches exactly
-b) The function works with different mood/intensity combinations and creates the file correctly
-c) The indentation looks right
-d) The function has comments explaining every line
+- a) The function name matches exactly
+- b) The function works with different mood/intensity combinations and creates the file correctly
+- c) The indentation looks right
+- d) The function has comments explaining every line
 
 ## Question 2
 
 **You've successfully copied your function and added the hardcoded test `log_mood("happy", 2)` to your `app.py`. When you run `python app.py`, what actually happens behind the scenes?**
 
-a) Python runs only the `log_mood` function and ignores everything else
-b) Python executes the entire `app.py` file from top to bottom, including imports and the `if __name__` block
-c) Python checks if the function works first, then runs the `if __name__` block
-d) Python runs the function in a separate process to avoid conflicts
+- a) Python runs only the `log_mood` function and ignores everything else
+- b) Python executes the entire `app.py` file from top to bottom, including imports and the `if __name__` block
+- c) Python checks if the function works first, then runs the `if __name__` block
+- d) Python runs the function in a separate process to avoid conflicts
 
 ---
 
@@ -179,7 +182,8 @@ d) Python runs the function in a separate process to avoid conflicts
 
 Here's a complete, working implementation of the log_mood function:
 
-<pre><code>from datetime import datetime
+<pre><code class="language-python">
+from datetime import datetime
 from pathlib import Path
 
 def log_mood(mood: str, intensity: int) -> None:
@@ -235,6 +239,8 @@ def log_mood(mood: str, intensity: int) -> None:
 </ul>
 
 </details>
+
+---
 
 <details>
 <summary><b>Answers to this lesson Practice</b></summary>
