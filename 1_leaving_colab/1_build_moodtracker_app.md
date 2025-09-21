@@ -1,5 +1,6 @@
 ---
 title: 1.1 MoodTracker
+nav_order: 1
 ---
 
 # Section 1. Leaving familiar places. Build command-line mood tracker
