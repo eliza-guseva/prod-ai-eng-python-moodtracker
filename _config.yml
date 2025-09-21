@@ -8,3 +8,5 @@ plugins:
 minima:
   skin: auto
 
+# Disable automatic header navigation
+header_pages: []
