@@ -55,6 +55,7 @@ Here are some options you can use. Depending on the situation, you might prefer 
 - Import it into an `.ipynb` for testing
 - **Pros**: Best of both worlds - proper structure + easy testing
 - **Cons**: Nothing I know of 
+
 *Note*: with Option 3 when you import code to `.ipynb` you have to put in the very top cell the following magic functions -- they keep track of the changes in your files, so that when you edit your `.py` your notebook automatically reloads
 
 ```python
