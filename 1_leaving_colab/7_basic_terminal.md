@@ -1,5 +1,5 @@
 ---
-title: 1.7 Basic Terminal
+title: 1.07 Basic Terminal
 ---
 
 What we would like to build in this course is called a **CLI tool.**

@@ -1,5 +1,5 @@
 ---
-title: 1.6 Project Organization
+title: 1.06 Project Organization
 ---
 
 **Your computer is a giant filing cabinet,** of sorts. But instead of drawers we have folders (often called *directories* in the engineering lingo).

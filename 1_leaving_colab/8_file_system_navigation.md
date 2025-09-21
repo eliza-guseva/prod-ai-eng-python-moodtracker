@@ -1,5 +1,5 @@
 ---
-title: 1.8 Terminal Navigation
+title: 1.08 Terminal Navigation
 ---
 Now that you know the basic commands, let's learn how to navigate efficiently to your projects. This is crucial because **an engineer you are likely expected to be able to navigate between different project folders**, and you need to be comfortable moving around your file system.
 

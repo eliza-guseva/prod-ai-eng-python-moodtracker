@@ -1,5 +1,5 @@
 ---
-title: 1.9 Helper Function
+title: 1.09 Helper Function
 ---
 Okay, we ventured into terminal for some time. That was good! Now let's get back to the familiar ground and let's write some Python!
 

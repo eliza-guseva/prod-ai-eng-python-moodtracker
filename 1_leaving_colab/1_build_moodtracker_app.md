@@ -1,5 +1,5 @@
 ---
-title: 1.1 MoodTracker
+title: 1.01 MoodTracker
 ---
 
 # Section 1. Leaving familiar places. Build command-line mood tracker
