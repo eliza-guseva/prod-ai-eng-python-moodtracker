@@ -45,6 +45,51 @@ Notice that `src.app_logic` is a local path - Python looks for folders and files
 
 ### Other ways to import
 
+There are several ways to import code in Python. Each has its place depending on what you're trying to do:
+
+**0. Import only what you need (what we do)**
+```python
+from src.app_logic import log_mood
+
+# Use it like this:
+log_mood()
+```
+
+**1. Import the entire module (often too verbose):**
+```python
+import src.app_logic
+
+# Use it like this:
+src.app_logic.log_mood()
+```
+
+**2. Import with an alias (shorter name -- easy on the eyes):**
+```python
+import src.app_logic as al
+
+# Use it like this:
+al.log_mood()
+```
+
+**3. Import everything (not the best  -- makes it harder to  understand the origin of a function -> harder to debug):**
+```python
+from src.app_logic import *
+from src.something_else import *
+
+# Use it like this:
+log_mood()
+# But do you know if this function came from `something_else` or from `app_logic`?
+```
+
+**Generally options 0 and 2 are preferred ones**. You'll see either of them pretty frequently.
+
+In many teams I worked people preferred option 0. And there are good reasons for it:
+- **Clear and explicit** - you can see exactly which functions come from where
+- **No namespace pollution** - only brings in what you need
+- **Easy to use** - `log_mood()` instead of `src.app_logic.log_mood()`
+
+When you work in a team -- do like the team does. But for this course just do whichever version you prefer. 
+
 # Practice
 - [ ] Go ahead and create a file `src/app_logic.py`
 - [ ] In it let's create a stub of a function so far -- we'll fill it later. Now we just want to make sure, that we can import the function. Add the following function to the file
@@ -57,15 +102,38 @@ def log_mood():
 - [ ] Ensure that you are in your project directory and run the program
 
 ### Question 1
-**What do you see?
+**What do you see?**
 
-
+a) An error: "ModuleNotFoundError: No module named 'src'"
+b) The text "Logging moods. Coming soon..."
+c) An error: "ImportError: cannot import name 'log_mood'"
+d) Nothing - the program hangs
 ### Question 2
 - [ ] In your terminal go to one directory up
 - [ ] Run your app from there.
-*Don't forget that if you are one directory up you have to provide to python a correct path to your app*
+*Don't forget that when you change a directory up you have to provide to python a correct path to your app*
 
 **What do you see?**
 
-- import errror
-- still runs
+a) An error: "ModuleNotFoundError: No module named 'src'"
+b) The same "Logging moods. Coming soon..." message
+c) An error: "FileNotFoundError: can't open file 'app.py'"
+d) An error: "ImportError: attempted relative import with no known parent package"
+
+---
+
+[Next: Developing and Testing](22_test_and_dev.md)
+
+---
+
+<details>
+<summary><b>Answers to this lesson Practice</b></summary>
+
+<b>Question 1 - Correct answer:</b> <p><b>b) The text "Logging moods. Coming soon..."</b></p>
+<p>When you run `python app.py` from your project directory, Python successfully imports the `log_mood` function from `src/app_logic.py` and executes it, displaying the placeholder message. This confirms that your import system is working correctly and Python can find your custom module.</p>
+
+<b>Question 2 - Correct answer:</b> <p><b>b) The same "Logging moods. Coming soon..." message</b></p>
+<p>When you run the script from a directory above your project (e.g., `python mood-tracker/app.py`), Python still successfully finds and imports the `src.app_logic` module <b>because the import path is relative to where the script file (`app.py`) is located</b>, not where you're running the command from. Since `app.py` and the `src` folder are in the same directory, Python can resolve the import correctly and the program runs normally, displaying the same message.</p>
+
+</details>
+<!-- end of answers section -->
