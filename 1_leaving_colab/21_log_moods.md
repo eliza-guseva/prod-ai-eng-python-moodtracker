@@ -91,15 +91,15 @@ In many teams I worked people preferred option 0. And there are good reasons for
 When you work in a team -- do like the team does. But for this course just do whichever version you prefer. 
 
 # Practice
-- [ ] Go ahead and create a file `src/app_logic.py`
-- [ ] In it let's create a stub of a function so far -- we'll fill it later. Now we just want to make sure, that we can import the function. Add the following function to the file
+<input type="checkbox"> **Go ahead and create a file `src/app_logic.py`**
+<br>&nbsp;&nbsp;<input type="checkbox"> In it let's create a stub of a function so far -- we'll fill it later. Now we just want to make sure, that we can import the function. Add the following function to the file
 ```
 def log_mood():
 	print("Logging moods. Coming soon...")
 ```
-- [ ] Now in you `app.py` import this function 
-- [ ] Remove `show_help()` from the entrypoint block and replace it with `log_mood()`
-- [ ] Ensure that you are in your project directory and run the program
+<input type="checkbox"> **Now in you `app.py` import this function**
+<br>&nbsp;&nbsp;<input type="checkbox"> Remove `show_help()` from the entrypoint block and replace it with `log_mood()`
+<br>&nbsp;&nbsp;<input type="checkbox"> Ensure that you are in your project directory and run the program
 
 ### Question 1
 **What do you see?**
@@ -109,9 +109,9 @@ b) The text "Logging moods. Coming soon..."
 c) An error: "ImportError: cannot import name 'log_mood'"
 d) Nothing - the program hangs
 ### Question 2
-- [ ] In your terminal go to one directory up
-- [ ] Run your app from there.
-*Don't forget that when you change a directory up you have to provide to python a correct path to your app*
+<input type="checkbox"> **In your terminal go to one directory up**
+<br>&nbsp;&nbsp;<input type="checkbox"> Run your app from there.
+<br>&nbsp;&nbsp;*Don't forget that when you change a directory up you have to provide to python a correct path to your app*
 
 **What do you see?**
 

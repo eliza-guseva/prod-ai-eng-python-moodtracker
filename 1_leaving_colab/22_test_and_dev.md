@@ -3,7 +3,7 @@ title: 2.02 Developing and Testing
 ---
 Hi there! 
 
-I know I've been promising to *actually* make the app work. And then we went there, went here, did this and that and still no logging :P
+I know I've been promising to *actually* make the app work. And then we went there, went here, did this and that and still no mood logging is happening =\
 
 But now, **now**, we'll definitely do it! Pinky promise!
 
@@ -56,6 +56,7 @@ Here are some options you can use. Depending on the situation, you might prefer 
 - **Pros**: Best of both worlds - proper structure + easy testing
 - **Cons**: Nothing I know of 
 *Note*: with Option 3 when you import code to `.ipynb` you have to put in the very top cell the following magic functions -- they keep track of the changes in your files, so that when you edit your `.py` your notebook automatically reloads
+
 ```python
 # simply dark magic!
 %load_ext autoreload
@@ -181,9 +182,8 @@ Here's a complete, working implementation of the log_mood function:
 <pre><code>from datetime import datetime
 from pathlib import Path
 
-def log_mood(mood, intensity):
+def log_mood(mood: str, intensity: int) -> None:
     """Log a mood with intensity to a CSV file.
-
     Args:
         mood (str): The emotion to log (happy, sad, angry, fearful, disgusted)
         intensity (int): Intensity level from 1-3 (1=low, 2=medium, 3=high)
