@@ -36,22 +36,42 @@ Many languages create similar distinctions between **executable** and **importab
 
 Python allows you to name your functions however you want, but as a tradeoff, we get to see some of the exposed inner language wiring -- all the variables and functions that begin with `__` are part of Python's internal wiring and should be handled with care.
 
-### Step 2: Test Your Application
 
-**Save the file** and run it from your terminal:
+# Practice
 
-```bash
-# Make sure you're in the mood-tracker directory
-pwd
+- [ ] In your `app.py` at the end add the entrypoint block (type it in, don't copy -- it'll help you to notice the details -- really, it does)
+- [ ] In terminal run your app `python app.py` (make sure you are in the project directory)
 
-# Run your application
-python mood_logger.py
-```
+### Question 1 
+**What do you see?**
+- a) An error message saying "module not found"
+- b) The complete help text showing usage instructions, moods, intensity levels, and examples
+- c) Just "MoodTracker - Track your daily emotions"
+- d) Nothing - the terminal hangs
 
-**You should see comprehensive help output.** If not:
+## Question 2
+- [ ] Let's try to follow the directions in the help: run `python app.py happy 3`
+**What do you see?**
+- a) An error message: "TypeError: show_help() takes 0 positional arguments but 2 were given"
+- b) A confirmation message: "Logged happy with intensity 3"
+- c) The same help menu again
+- d) An error: "FileNotFoundError: data/mood_log.txt not found"
 
-- **Check you're in the right directory**: `pwd` should show mood-tracker
-- **Check Python works**: `python --version` should show 3.12+
-- **Check the filename**: Make sure you saved as `mood_logger.py`
+---
 
-**Congratulations!** You just built your first standalone Python application with professional help documentation.
+[Next: Log Moods](11_log_moods)
+
+---
+<details> <summary><b>Answers to this lesson Practice</b></summary>
+
+**Question 1 - Correct answer:** **b) The complete help text showing usage instructions, moods, intensity levels, and examples**
+
+When you run `python app.py`, the `if __name__ == "__main__":` block executes, which calls `show_help()`. This function prints the comprehensive help information including usage patterns, available moods, intensity levels, examples, and data storage information.
+
+**Question 2 - Correct answer:** **c) The same help menu again**
+
+When you run `python app.py happy 3`, the program still only calls `show_help()` because we haven't implemented command-line argument parsing yet. The `happy` and `3` arguments are passed to the script but ignored, so the same help menu displays. We need to add code to handle these command-line arguments to make the mood logging functionality work.
+
+</details>
+
+

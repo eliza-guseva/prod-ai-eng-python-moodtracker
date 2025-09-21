@@ -26,9 +26,9 @@ But if we write an application for the users (even if it is just ourselves), we 
 
 For our app it will look something like this:
 ```bash
-python mood_logger.py log happy 3
+python app.py log happy 3
 ```
-You notice it's similar to the way how other commands operate (check your `CMD.md`): `cd folder` or `pip install package`. First we pass the command name (in our case it's a bit extended `python mood_logger.py`) and then we pass arguments like `log happy 3` or `showstats.`
+You notice it's similar to the way how other commands operate (check your `CMD.md`): `cd folder` or `pip install package`. First we pass the command name (in our case it's a bit extended `python app.py`) and then we pass arguments like `log happy 3` or `showstats.`
 
 Now, since we don't expect our users to go and check our code, we also need to tell them how to use our app. We need to tell them which arguments are possible -- or we need to show them `usage.`
 
@@ -54,9 +54,9 @@ def show_help() -> None:
     print("Designed for AI Engineers transitioning from notebooks to applications")
     print()
     print("USAGE:")
-    print("  python mood_logger.py <mood> <intensity>  - Log a mood")
-    print("  python mood_logger.py showstats           - Show statistics")
-    print("  python mood_logger.py help                - Show this help")
+    print("  python app.py <mood> <intensity>  - Log a mood")
+    print("  python app.py showstats           - Show statistics")
+    print("  python app.py help                - Show this help")
     print()
     print("MOODS:")
     print("  happy, sad, angry, fearful, disgusted")
@@ -68,9 +68,9 @@ def show_help() -> None:
     print("  3 = high      (extremely happy)")
     print()
     print("EXAMPLES:")
-    print("  python mood_logger.py happy 2")
-    print("  python mood_logger.py angry 3")
-    print("  python mood_logger.py fearful 1")
+    print("  python app.py happy 2")
+    print("  python app.py angry 3")
+    print("  python app.py fearful 1")
     print()
     print("DATA STORAGE:")
     print("  Moods are saved to: data/mood_log.txt")
