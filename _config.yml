@@ -8,16 +8,5 @@ plugins:
 minima:
   skin: auto
 
-# Collections for ordered content
-collections:
-  lessons:
-    output: true
-    permalink: /:collection/:name/
-    sort_by: order
-
-defaults:
-  - scope:
-      path: "1_leaving_colab"
-      type: "pages"
-    values:
-      layout: "page"
+# Disable automatic header navigation
+header_pages: []

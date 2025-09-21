@@ -39,8 +39,8 @@ Python allows you to name your functions however you want, but as a tradeoff, we
 
 # Practice
 
-- [ ] In your `app.py` at the end add the entrypoint block (type it in, don't copy -- it'll help you to notice the details -- really, it does)
-- [ ] In terminal run your app `python app.py` (make sure you are in the project directory)
+<br><input type="checkbox"> In your `app.py` at the end add the entrypoint block (type it in, don't copy -- it'll help you to notice the details -- really, it does)
+<br><input type="checkbox"> In terminal run your app `python app.py` (make sure you are in the project directory)
 
 ### Question 1 
 **What do you see?**
@@ -50,7 +50,7 @@ Python allows you to name your functions however you want, but as a tradeoff, we
 - d) Nothing - the terminal hangs
 
 ## Question 2
-- [ ] Let's try to follow the directions in the help: run `python app.py happy 3`
+<br><input type="checkbox"> Let's try to follow the directions in the help: run `python app.py happy 3`
 **What do you see?**
 - a) An error message: "TypeError: show_help() takes 0 positional arguments but 2 were given"
 - b) A confirmation message: "Logged happy with intensity 3"
@@ -62,15 +62,14 @@ Python allows you to name your functions however you want, but as a tradeoff, we
 [Next: Log Moods](11_log_moods)
 
 ---
-<details> <summary><b>Answers to this lesson Practice</b></summary>
+<details>
+<summary><b>Answers to this lesson Practice</b></summary>
 
-**Question 1 - Correct answer:** **b) The complete help text showing usage instructions, moods, intensity levels, and examples**
+<b>Question 1 - Correct answer:</b> <p><b>b) The complete help text showing usage instructions, moods, intensity levels, and examples</b></p>
+<p>When you run `python app.py`, the `if __name__ == "__main__":` block executes, which calls `show_help()`. This function prints the comprehensive help information including usage patterns, available moods, intensity levels, examples, and data storage information.</p>
 
-When you run `python app.py`, the `if __name__ == "__main__":` block executes, which calls `show_help()`. This function prints the comprehensive help information including usage patterns, available moods, intensity levels, examples, and data storage information.
-
-**Question 2 - Correct answer:** **c) The same help menu again**
-
-When you run `python app.py happy 3`, the program still only calls `show_help()` because we haven't implemented command-line argument parsing yet. The `happy` and `3` arguments are passed to the script but ignored, so the same help menu displays. We need to add code to handle these command-line arguments to make the mood logging functionality work.
+<b>Question 2 - Correct answer:</b> <p><b>c) The same help menu again</b></p>
+<p>When you run `python app.py happy 3`, the program still only calls `show_help()` because we haven't implemented command-line argument parsing yet. The `happy` and `3` arguments are passed to the script but ignored, so the same help menu displays. We need to add code to handle these command-line arguments to make the mood logging functionality work.</p>
 
 </details>
 
