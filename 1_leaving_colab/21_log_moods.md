@@ -93,7 +93,7 @@ When you work in a team -- do like the team does. But for this course just do wh
 # Practice
 <input type="checkbox"> **Go ahead and create a file `src/app_logic.py`**
 <br>&nbsp;&nbsp;<input type="checkbox"> In it let's create a stub of a function so far -- we'll fill it later. Now we just want to make sure, that we can import the function. Add the following function to the file
-```
+```python
 def log_mood():
 	print("Logging moods. Coming soon...")
 ```
@@ -104,10 +104,10 @@ def log_mood():
 ### Question 1
 **What do you see?**
 
-a) An error: "ModuleNotFoundError: No module named 'src'"
-b) The text "Logging moods. Coming soon..."
-c) An error: "ImportError: cannot import name 'log_mood'"
-d) Nothing - the program hangs
+- a) An error: "ModuleNotFoundError: No module named 'src'"
+- b) The text "Logging moods. Coming soon..."
+- c) An error: "ImportError: cannot import name 'log_mood'"
+- d) Nothing - the program hangs
 ### Question 2
 <input type="checkbox"> **In your terminal go to one directory up**
 <br>&nbsp;&nbsp;<input type="checkbox"> Run your app from there.
@@ -115,10 +115,10 @@ d) Nothing - the program hangs
 
 **What do you see?**
 
-a) An error: "ModuleNotFoundError: No module named 'src'"
-b) The same "Logging moods. Coming soon..." message
-c) An error: "FileNotFoundError: can't open file 'app.py'"
-d) An error: "ImportError: attempted relative import with no known parent package"
+- a) An error: "ModuleNotFoundError: No module named 'src'"
+- b) The same "Logging moods. Coming soon..." message
+- c) An error: "FileNotFoundError: can't open file 'app.py'"
+- d) An error: "ImportError: attempted relative import with no known parent package"
 
 ---
 

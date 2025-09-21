@@ -57,7 +57,7 @@ Here are some options you can use. Depending on the situation, you might prefer 
 - **Cons**: Nothing I know of 
 *Note*: with Option 3 when you import code to `.ipynb` you have to put in the very top cell the following magic functions -- they keep track of the changes in your files, so that when you edit your `.py` your notebook automatically reloads
 
-```
+```python
 # simply dark magic
 %load_ext autoreload
 %autoreload 2
