@@ -1,5 +1,5 @@
 ---
-title: 1.10 Entrypoint
+title: 1.09 3/4 - Entrypoint
 ---
 **Okay, let's make it actually run this time**
 
@@ -59,7 +59,7 @@ Python allows you to name your functions however you want, but as a tradeoff, we
 
 ---
 
-[Next: Log Moods](11_log_moods)
+[Next: Log Moods](21_log_moods.md)
 
 ---
 <details>
