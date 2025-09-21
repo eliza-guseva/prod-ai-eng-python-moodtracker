@@ -57,14 +57,14 @@ Here are some options you can use. Depending on the situation, you might prefer 
 - **Cons**: Nothing I know of 
 *Note*: with Option 3 when you import code to `.ipynb` you have to put in the very top cell the following magic functions -- they keep track of the changes in your files, so that when you edit your `.py` your notebook automatically reloads
 
-```python
-# simply dark magic!
+```
+# simply dark magic
 %load_ext autoreload
 %autoreload 2
 
 import src.app_logic as al
 
-# call any function below with al.<function>
+# call any function below with al.FUNCTION_NAME
 ```
 
 You can use either option 2 or 3 in this lesson. To use it all you need to do is to create in VSCode `test.ipynb` in the root of your project and here you are -- in a familiar coding environment.
